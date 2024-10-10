@@ -104,7 +104,7 @@ const TeamSection = () => {
       <div className="h-16 bg-[#131319] rounded-t rounded-[600px/40px] relative z-10">
       </div>
       <Slider {...settings} className="-mt-12 relative z-0">
-        {teamMembers.map((member) => (
+        {teamMembers.map((member,i) => (
           <div
             className="lg:w-1/3 sm:w-1/2 w-full cursor-pointer"
             key={member.id}
@@ -113,7 +113,7 @@ const TeamSection = () => {
           
               <img
                 alt="gallery"
-                className="w-full h-full object-cover object-center mx-1"
+                className={`w-full   h-full object-cover object-center `}
                 src={member.image}
               />
               {/* <div className="absolute inset-0 bg-white bg-opacity-0 flex flex-col justify-center items-center transition-opacity duration-300 opacity-0 hover:bg-opacity-90 hover:opacity-100 p-6">
