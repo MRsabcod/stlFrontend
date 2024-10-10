@@ -5,6 +5,24 @@
 body {
   font-family: Helvetica;
 }
+@keyframes scroll {
+  0% {
+    transform: translateX(0);
+  }
+  100% {
+    transform: translateX(-50%);
+  }
+}
+
+/* Apply the sliding animation to the track */
+.slider-track {
+  animation: scroll 2s linear infinite;
+}
+
+/* Pause animation when hovered */
+.slider-container:hover .slider-track {
+  animation-play-state: paused;
+}
 @font-face {
   font-family:  'Helvetica';
   src: url('./fonts/HelveticaNowDisplay-Regular.ttf');

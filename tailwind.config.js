@@ -8,6 +8,15 @@ module.exports = {
   ],
   theme: {
   	extend: {
+		animation: {
+			'spin-slow': 'spin 10s linear infinite',
+		  },
+		  keyframes: {
+			spin: {
+			  '0%': { transform: 'rotate(0deg)' },
+			  '100%': { transform: 'rotate(360deg)' },
+			},
+		  },
   		colors: {
   			background: 'var(--background)',
   			foreground: 'var(--foreground)'
