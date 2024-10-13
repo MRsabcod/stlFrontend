@@ -16,7 +16,7 @@ const showcaseItems = [
     title: "CUSTOM",
     subtitle: "Pixelcraft",
     description: "Web Design",
-    image: "/Aliyan.webp?height=400&width=600",
+    image: "/portfolio.png?height=400&width=600",
   },
   {
     title: "INNOVATIVE",
@@ -40,16 +40,17 @@ export default function ShowcaseSection() {
   const nextIndex = (currentIndex + 1) % showcaseItems.length
 
   return (
-    <div className="min-h-screen bg-gray-900 text-white p-8">
-      <div className="max-w-6xl mx-auto">
+    <div className="min-h-screen  text-white p-8 pr-0">
+      <div className="max-w-6xl mr-0 mx-auto">
         <h1 className="text-4xl font-bold mb-4 text-center">Our Showcase</h1>
         <p className="text-center mb-8 text-gray-400">
           Explore our showcase of cutting-edge projects, highlighting the
           innovative solutions we've crafted for our clients.
         </p>
 
-        <div className="flex space-x-4">
-          <div className="relative overflow-hidden rounded-lg bg-gray-800 shadow-xl flex-grow">
+        <div className="flex space-x-4 ">
+          <div className="relative overflow-hidden rounded-lg bg-gray-800 shadow-xl  w-3/4
+          " >
             <AnimatePresence mode="wait">
               <motion.div
                 key={currentIndex}
@@ -80,18 +81,17 @@ export default function ShowcaseSection() {
               </motion.div>
             </AnimatePresence>
           </div>
-
-          <div className="w-1/4 relative overflow-hidden rounded-lg  ">
+          <div className="w-1/4 overflow-hidden flex flex-col justify-center">
+          <div className="h-[70%] w-[150%] relative overflow-hidden rounded-lg  ">
             <Image
               src={showcaseItems[nextIndex].image}
               alt={`Preview of ${showcaseItems[nextIndex].title}`}
-              className="w-full h-full object-contain"
+              className="max-w-none object-cover "
          
               fill
             />
-            <div className="absolute inset-0 bg-black bg-opacity-60 flex items-center justify-center">
-              <p className="text-xl font-semibold text-center">Next: {showcaseItems[nextIndex].title}</p>
-            </div>
+           
+          </div>
           </div>
         </div>
 

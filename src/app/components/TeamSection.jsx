@@ -88,7 +88,7 @@ const TeamSection = () => {
   };
 
   return (
-    <section className="bg-[#131319] py-14">
+    <section className="py-14">
       <div className="container mx-auto text-center">
         <h2
           className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-10"
