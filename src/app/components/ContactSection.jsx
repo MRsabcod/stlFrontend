@@ -25,8 +25,8 @@ const ContactForm = () => {
   return (
     <div className="contact-form">
       <div className="left-section">
-        <h2>
-          Have <span className="highlight">a great idea?</span> <br /> Tell us
+        <h2 className="text-black">
+          Have <span className="highlight ">a great idea?</span> <br /> Tell us
           about it.
         </h2>
 
@@ -34,9 +34,9 @@ const ContactForm = () => {
           <p>Follow us:</p>
           <div className="icons">
 
-            <InstagramIcon/>
-            <FacebookIcon/>
-            <LinkedinIcon/>
+            <InstagramIcon color="black"/>
+            <FacebookIcon color="black" />
+            <LinkedinIcon color="black" />
 
           </div>
         </div>
@@ -122,7 +122,7 @@ const ContactForm = () => {
           </div>
 
           {/* Submit Button */}
-          <button type="submit" className="submit-button">
+          <button type="submit" className="submit-button ">
             Submit
           </button>
         </form>

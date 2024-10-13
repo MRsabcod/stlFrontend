@@ -11,7 +11,7 @@ import ContactForm from "../components/ContactSection.jsx";
 
 export default function Home() {
     return (
-        <div className="App bg-[#131319]">
+        <div className="App bg-[#131319] text-white">
           <TransparentHeader/>
         <HeroSection/>
         <Services/>

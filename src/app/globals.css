@@ -217,10 +217,15 @@ body {
   font-size: 16px;
   cursor: pointer;
   transition: background-color 0.3s;
+  
 }
+
 
 .submit-button:hover {
   background-color: #000000;
+  transform: translateY(-3px);
+    color: #fff;
+    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3)
 }
 
 
@@ -392,4 +397,128 @@ body {
 
 .radio-option input[type="radio"] {
   @apply hidden;
+}
+
+.Container1 {
+  width: 37.313rem;
+  height: 37.313rem;
+  border: 1px solid #FFFFFF2E;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Shell1 {
+  width: 37.313rem;
+  height: 37.313rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.Container2 {
+  width: 29.188rem;
+  height: 29.188rem;
+  border: 1px solid #FFFFFF2E;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Shell2 {
+  width: 29.188rem;
+  height: 29.188rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.Container3 {
+  width: 21.063rem;
+  height: 21.063rem;
+  border: 1px solid #FFFFFF2E;
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: relative;
+}
+
+.Shell3 {
+  width: 21.063rem;
+  height: 21.063rem;
+  border-radius: 50%;
+  position: absolute;
+}
+
+.SaylaniText {
+  width: 9.563rem;
+  height: 5rem;
+  font-size: 1.875rem;
+  font-weight: 500;
+  line-height: 2.5rem;
+  text-align: center;
+  background-image: linear-gradient(106.2deg, #CB464B 4.56%, #FFFFFF 100%);
+  color: transparent;
+  background-clip: text;
+}
+
+.Icon1 {
+  position: absolute;
+  width: 67px;
+  height: 69px;
+  top: 50%;
+  right: -32px;
+  border-radius: 15px;
+  opacity: 0px;
+  box-shadow: 0px 6px 0px 0px #960021;
+}
+
+.Icon2 {
+  position: absolute;
+  width: 67px;
+  height: 69px;
+  top: 312px;
+  left: 0px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: #016EF8;
+  box-shadow: 0px 6px 0px 0px #003E8D;
+}
+
+.Icon3 {
+  position: absolute;
+  width: 67px;
+  height: 69px;
+  left: 218px;
+  bottom: -34px;
+  border-radius: 15px;
+  opacity: 0px;
+  box-shadow: 0px 6px 0px 0px #00396B;
+}
+
+.Icon4 {
+  position: absolute;
+  width: 67px;
+  height: 69px;
+  left: 159px;
+  top: -15px;
+  border-radius: 15px;
+  opacity: 0px;
+  background: #00D8FF;
+  box-shadow: 0px 6px 0px 0px #009FBC;
+}
+
+.Icon5 {
+  position: absolute;
+  width: 67px;
+  height: 69px;
+  left: 404px;
+  bottom: 0;
+  border-radius: 15px;
+  opacity: 0px;
+  background: #1766CB;
+  box-shadow: 0px 6px 0px 0px #003982;
 }
