@@ -24,7 +24,6 @@ export default function HeroSection() {
 
       {/* Content */}
       <div className="relative z-20 flex flex-col items-center justify-center h-full text-center px-4">
-      <Badge variant="secondary" className={'px-3 py-2'}><Laptop className="w-[16.25px]"/> <span className="ml-1 text-base font-normal">Your Vision, Our Code</span></Badge>
       <h1 className="text-4xl bg-clip-text text-transparent md:text-[80px] md:leading-[117.6px] font-bold bg-gradient-to-r  from-[#9B9B9B] tracking-[-2px]  to-[#FFFFFF] mb-4">
          Saylani Tech Limited
         </h1>

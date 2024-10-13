@@ -33,14 +33,14 @@ const teamMembers = [
       name: "Wajid Ahmed",
       position: "UI/UX Designer",
       description: "Creating user-friendly designs",
-      image: '/Aliyan.webp',
+      image: '/Wajid.webp',
     },
     {
       id: 4,
       name: "Ghous Ahmed",
       position: "Devolopers Head",
       description: "Overseeing project execution ",
-      image: '/Aliyan.webp',
+      image: '/zeeshan.webp',
     },
   ];
 const TeamSection = () => {
