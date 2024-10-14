@@ -25,29 +25,47 @@ function TechStackSection() {
                 </div>
                 <div className='w-1/2 h-full flex justify-center items-center'>
                     <div className='Container1'>
-                        <motion.div
+                        {/* <motion.div
                             ref={ref}
-                            style={{ rotate: `${hookedYPostion * -40}deg` }}
+                            style={{ rotate: `${hookedYPostion * -100}deg` }}
                             className='Shell1'
+                            animate={{rotate:360}}
                         >
                             <motion.img
                                 ref={ref}
-                                style={{ rotate: `${hookedYPostion * 40}deg` }}
+                                style={{ rotate: `${hookedYPostion * 100}deg` }}
                                 className='Icon4'
                                 src={'/arrow.png'}
+                                animate={{rotate:360}}
                                 alt="" />
 
-                        </motion.div>
-                        <motion.div
-                            ref={ref}
-                            style={{ rotate: `${hookedYPostion * -60}deg` }}
-                            className='Shell1'
-                        >
-                            <motion.img
+                        </motion.div> */}
+                          
+                          <div style={{ position: 'relative', width: '200px', height: '200px' }}>
+                          <motion.div
+        style={{
+          width: '100px',
+          height: '100px',
+          borderRadius: '50%',
+          borderBottom: '2px solid blue',
+          position: 'absolute',
+          top: '50%',
+          left: '50%',
+          translate: '-50% -50%',
+        }}
+        animate={{ rotate: 360 }}
+        transition={{ duration: 2, loop: Infinity, ease: "linear",repeat:Infinity }}
+      />
+      <motion.img
                                 ref={ref}
-                                style={{ rotate: `${hookedYPostion * -60}deg` }}
-                                className='Icon5' src={'/react.png'} alt="" />
-                        </motion.div>
+                                
+                                className='Icon4'
+                                src={'/react.png'}
+                                animate={{translate:'0% 30%',rotate:200}}
+        transition={{ duration: 2, loop: Infinity, ease: "linear",repeat:Infinity }}
+
+                                alt="" />
+    </div>
 
                         <div className='Container2'>
                             <motion.div
