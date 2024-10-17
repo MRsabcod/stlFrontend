@@ -23,6 +23,8 @@ const ContactForm = () => {
   };
 
   return (
+    <div className="p-10">
+
     <div className="contact-form">
       <div className="left-section">
         <h2 className="text-black">
@@ -128,6 +130,7 @@ const ContactForm = () => {
         </form>
       </div>
     </div>
+                      </div>
   );
 };
 
