@@ -4,7 +4,7 @@ const Testimonial = () => {
   return (
     <div className='p-6'>
 
-    <div className="bg-[#42424b61] gap-2 text-white p-0 md:p-8 m-auto   md:h-[502.5px] shadow-lg rounded-[22px] flex flex-col md:flex-row items-center">
+    <div className="bg-[#42424b61]  gap-2 text-white p-0 md:p-8 m-auto   md:h-[502.5px]  shadow-[rgba(245,242,245,0.31)] shadow-2xl  rounded-[22px] flex flex-col md:flex-row items-center">
       {/* Left Section: Testimonial Text */}
       <div className=" w-full p-6 h-full">
         <div className='flex flex-col justify-between h-full'>

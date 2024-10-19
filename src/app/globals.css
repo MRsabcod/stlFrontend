@@ -222,10 +222,10 @@ body {
 
 
 .submit-button:hover {
-  background-color: #000000;
-  transform: translateY(-3px);
-    color: #fff;
-    box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3)
+
+  /* transform: translateY(-3px);
+    color: #fff; */
+    /* box-shadow: 0 10px 20px 0 rgba(0, 0, 0, 0.3) */
 }
 
 
@@ -261,10 +261,14 @@ body {
   cursor: pointer;
   font-size: 16px;
   transition: background-color 0.3s;
+  
+  transition: all 0.3s ease;
+
 }
 
 .submit-button:hover {
-  background-color: #e04848;
+  /* background-color: #e04848; */
+  transform: scale(1.07);
 }
 
 .form-group input {
@@ -308,12 +312,13 @@ body {
   cursor: pointer;
   background-color: #f9f9f9;
   transition: background-color 0.3s ease;
+ 
 }
 
 .radio-option input[type="radio"]:checked + label {
-  background-color: #000;  /* Change to a color to indicate selection */
+  background-color: #7E22CE;  /* Change to a color to indicate selection */
   color: #fff;
-  border-color: #000;
+  border-color: #7E22CE;
   
 }
 
@@ -370,21 +375,21 @@ body {
 }
 
 .submit-button {
-  @apply w-full p-6 bg-[#7E22CE] text-white rounded-full font-medium mt-6;
+  @apply w-full p-6 bg-[#7E22CE]  text-white rounded-full font-medium mt-6;
 }
 
 .submit-button:hover {
-  @apply bg-[#7e22ce86];
+  @apply shadow-2xl shadow-[#49494949];
 }
 
 .checkbox,
 .radio-option label {
-  @apply inline-block p-2 rounded-full border border-gray-300 cursor-pointer text-sm;
+  @apply inline-block px-4 p-2 rounded-full border border-gray-300 cursor-pointer text-sm;
 }
 
 .checkbox.active,
 .radio-option input:checked + label {
-  @apply bg-[#7E22CE] text-white border-[#7E22CE];
+  @apply bg-[#7E22CE] text-white border-[#7E22CE] ;
 }
 
 .checkboxes {
@@ -516,6 +521,18 @@ body {
   width: 67px;
   height: 69px;
   left: 404px;
+  bottom: 0;
+  border-radius: 15px;
+  opacity: 0px;
+  /* background: #1766CB; */
+  /* box-shadow: 0px 6px 0px 0px #003982; */
+}
+.Icon6 {
+  position: absolute;
+  width: 67px;
+  height: 69px;
+  left: 510px;
+  top: 100px;
   bottom: 0;
   border-radius: 15px;
   opacity: 0px;

@@ -94,7 +94,7 @@ const TeamSection = () => {
           className="text-3xl md:text-4xl lg:text-5xl font-bold text-white mb-10"
           data-aos="fade-up"
         >
-          Meet Our Experts
+          Meet Our <span className="inline-flex flex-col items-center gap-4">Experts <span className="border-b-4 w-3/4  border-b-[#7e22ce86]"></span></span>
         </h2>
         <p className="text-sm md:text-lg text-white dark:text-neutral-400 text-center px-20"
           data-aos="fade-up">While vulnerability can help build trust, it s not the only way. Trust also grows through reliability, clear communication,

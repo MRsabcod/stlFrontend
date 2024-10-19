@@ -6,7 +6,7 @@ function Services() {
   return (
     <div className="flex flex-col md:flex-row md:items-center">
       <div className="flex-1 p-16 flex justify-center flex-col">
-      <Cpu width={75} height={75} color='#6B21A8' className='bg-white rounded-lg' />
+      <Cpu width={75} height={75} color='#A0A0A0' className=' rounded-lg' />
         <br />
         <h1 className="text-xl font-semibold">Software Services</h1>
         <br />
